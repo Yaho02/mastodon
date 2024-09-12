@@ -11,7 +11,7 @@ module BrandingHelper
   end
 
   def _logo_as_symbol_wordmark
-    content_tag(:img, nil, src:full_pack_url('media/images/logos/wordmark_dark.png'), alt: 'Whippy Edition', class: 'logo logo--wordmark')
+    ccontent_tag(:img, nil, src:full_pack_url('media/images/logos/wordmark_dark.png'), alt: 'Whippy Edition', class: 'logo logo--wordmark')
   end
 
   def _logo_as_symbol_icon
